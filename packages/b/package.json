@@ -1,0 +1,8 @@
+{
+	"name": "@local/b",
+	"version": "1.0.0",
+	"type": "module",
+	"dependencies": {
+		"@local/a": "1.0.0"
+	}
+}
