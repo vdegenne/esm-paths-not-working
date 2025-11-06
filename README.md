@@ -8,6 +8,8 @@ _1 - In glob context, e.g. when `"exports"` contains a path with a wild card + e
 
 _2 - Another issue is that when paths contain a slash in the suggestion, selecting it will break (remove) the base dirname:_
 
+https://raw.githubusercontent.com/vdegenne/esm-paths-not-working/refs/heads/main/paths_broken_screencast.gif
+
 ### Files of interest:
 
 This repository uses a monorepo structure to emulate the issue.
