@@ -4,7 +4,10 @@ There are two main issues:
 
 ### [1] - In glob context, e.g. when `"exports"` contains a path with a wild card + extension (e.g. `"./a/global/path/_.js"`), the extension is lost in the resolution:
 
+in Neovim:  
 <img width="500"  alt="image" src="https://github.com/user-attachments/assets/61d6f4f1-effc-41de-81fb-311e5702b663" />
+
+in VSCODE:
 
 ### [2] - Another issue is that when paths contain a slash in the suggestion, selecting it will break (remove) the base dirname:
 
@@ -13,7 +16,6 @@ in Neovim:
 
 in VSCode (the paths are not even suggested...only root files)
 <img width="1532" height="332" alt="image" src="https://github.com/user-attachments/assets/b2e836c3-080b-49e8-b145-7c19bb5e1a5b" />
-
 
 ### Files of interest:
 
