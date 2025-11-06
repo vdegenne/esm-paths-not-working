@@ -7,7 +7,7 @@ There are two main issues:
 When paths contain a slash in the suggestion, selection will break (remove) the base dirname:
 
 in Neovim:  
-<img width=600 src="https://raw.githubusercontent.com/vdegenne/esm-paths-not-working/refs/heads/main/paths_broken_screencast.gif" />
+<img width=600 src="https://raw.githubusercontent.com/vdegenne/esm-paths-not-working/refs/heads/main/paths_broken_screencast.gif" />  
 (in the clip above `foo.js` works because it is at the root)
 
 in VSCode (the paths are not even suggested...only root files):  
