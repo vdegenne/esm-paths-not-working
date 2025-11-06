@@ -5,6 +5,10 @@
 		"./glob/path/*.js": {
 			"import": "./build/*.js",
 			"types": "./build/*.d.ts"
+		},
+		"./foo.js": {
+			"import": "./build/foo.js",
+			"types": "./build/foo.d.ts"
 		}
 	}
 }

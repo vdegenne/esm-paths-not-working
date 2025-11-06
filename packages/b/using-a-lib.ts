@@ -1,1 +1,1 @@
-import {} from '@local/a/glob/path/';
+import {} from '@local/a';
