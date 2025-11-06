@@ -8,10 +8,12 @@ There are two main issues:
 
 ### [2] - Another issue is that when paths contain a slash in the suggestion, selecting it will break (remove) the base dirname:
 
-in Neovim:
+in Neovim:  
 <img src="https://raw.githubusercontent.com/vdegenne/esm-paths-not-working/refs/heads/main/paths_broken_screencast.gif" />
 
-in VSCode (the paths are not even suggested...)
+in VSCode (the paths are not even suggested...only root files)
+<img width="1532" height="332" alt="image" src="https://github.com/user-attachments/assets/b2e836c3-080b-49e8-b145-7c19bb5e1a5b" />
+
 
 ### Files of interest:
 
