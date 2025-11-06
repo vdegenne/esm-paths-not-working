@@ -4,7 +4,7 @@ There are two main issues:
 
 ## [1] - Base dirname lost when path contains slash
 
-Another issue is that when paths contain a slash in the suggestion, selection will break (remove) the base dirname:
+When paths contain a slash in the suggestion, selection will break (remove) the base dirname:
 
 in Neovim:  
 <img width=600 src="https://raw.githubusercontent.com/vdegenne/esm-paths-not-working/refs/heads/main/paths_broken_screencast.gif" />
