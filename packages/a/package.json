@@ -2,6 +2,10 @@
 	"name": "@local/a",
 	"version": "1.0.0",
 	"exports": {
+		".": {
+			"import": "./build/foo.js",
+			"types": "./build/foo.d.ts"
+		},
 		"./glob/path/*.js": {
 			"import": "./build/*.js",
 			"types": "./build/*.d.ts"
