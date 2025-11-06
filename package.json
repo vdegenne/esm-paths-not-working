@@ -1,6 +1,5 @@
 {
 	"name": "@local/monorepo",
-	"type": "module",
 	"workspaces": [
 		"./packages/*"
 	],

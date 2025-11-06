@@ -1,7 +1,6 @@
 {
 	"name": "@local/a",
 	"version": "1.0.0",
-	"type": "module",
 	"exports": {
 		"./glob/path/*.js": {
 			"import": "./build/*.js",
